@@ -33,7 +33,7 @@ menu_item.forEach((item) => {
 });
 
 Twitter.addEventListener("click", () => {
-  window.open("https://metwitterclone.herokuapp.com/", "_blank");
+  window.open("https://tweetme2-deploy.herokuapp.com/", "_blank");
 });
 galactica.addEventListener("click", () => {
   window.open(

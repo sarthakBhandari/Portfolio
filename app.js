@@ -10,6 +10,7 @@ const galactica = document.getElementById("Galactica");
 const calculator = document.getElementById("Calculator");
 const ticTac = document.getElementById("TicTac");
 const Twitter = document.getElementById("Twitter");
+const Amazon = document.getElementById("Amazon");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
@@ -32,6 +33,12 @@ menu_item.forEach((item) => {
   });
 });
 
+Amazon.addEventListener("click", () => {
+  window.open(
+    "https://amazon-fullstack-r114e08fv-sarthakbhandari.vercel.app/",
+    "_blank"
+  );
+});
 Twitter.addEventListener("click", () => {
   window.open("https://tweetme2-deploy.herokuapp.com/", "_blank");
 });

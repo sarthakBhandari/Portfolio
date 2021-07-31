@@ -11,6 +11,7 @@ const calculator = document.getElementById("Calculator");
 const ticTac = document.getElementById("TicTac");
 const Twitter = document.getElementById("Twitter");
 const Amazon = document.getElementById("Amazon");
+const Gmail = document.getElementById("Gmail");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
@@ -38,6 +39,9 @@ Amazon.addEventListener("click", () => {
     "https://amazon-fullstack-r114e08fv-sarthakbhandari.vercel.app/",
     "_blank"
   );
+});
+Gmail.addEventListener("click", () => {
+  window.open("https://clone-62daa.web.app/", "_blank");
 });
 Twitter.addEventListener("click", () => {
   window.open("https://tweetme2-deploy.herokuapp.com/", "_blank");

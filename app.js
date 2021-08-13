@@ -12,6 +12,7 @@ const ticTac = document.getElementById("TicTac");
 const Twitter = document.getElementById("Twitter");
 const Amazon = document.getElementById("Amazon");
 const Gmail = document.getElementById("Gmail");
+const Social = document.getElementById("Social");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
@@ -34,6 +35,12 @@ menu_item.forEach((item) => {
   });
 });
 
+Social.addEventListener("click", () => {
+  window.open(
+    "https://github.com/sarthakBhandari/SarthakSocial-Client",
+    "_blank"
+  );
+});
 Amazon.addEventListener("click", () => {
   window.open(
     "https://amazon-fullstack-r114e08fv-sarthakbhandari.vercel.app/",

@@ -38,7 +38,7 @@ menu_item.forEach((item) => {
 
 GoogleDocs.addEventListener("click", () => {
   window.open(
-    "https://google-docs-m4tqagib4-sarthakbhandari.vercel.app/",
+    "https://google-docs-gnvkhz554-sarthakbhandari.vercel.app/",
     "_blank"
   );
 });

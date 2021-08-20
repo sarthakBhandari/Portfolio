@@ -13,6 +13,7 @@ const Twitter = document.getElementById("Twitter");
 const Amazon = document.getElementById("Amazon");
 const Gmail = document.getElementById("Gmail");
 const Social = document.getElementById("Social");
+const GoogleDocs = document.getElementById("GoogleDocs");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
@@ -35,6 +36,12 @@ menu_item.forEach((item) => {
   });
 });
 
+GoogleDocs.addEventListener("click", () => {
+  window.open(
+    "https://google-docs-m4tqagib4-sarthakbhandari.vercel.app/",
+    "_blank"
+  );
+});
 Social.addEventListener("click", () => {
   window.open(
     "https://github.com/sarthakBhandari/SarthakSocial-Client",

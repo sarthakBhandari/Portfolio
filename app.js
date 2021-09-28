@@ -14,6 +14,7 @@ const Amazon = document.getElementById("Amazon");
 const Gmail = document.getElementById("Gmail");
 const Social = document.getElementById("Social");
 const GoogleDocs = document.getElementById("GoogleDocs");
+const Airbnb = document.getElementById("Airbnb");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
@@ -36,6 +37,9 @@ menu_item.forEach((item) => {
   });
 });
 
+Airbnb.addEventListener("click", () => {
+  window.open("https://airbnb-fxafwovnj-sarthakbhandari.vercel.app/", "_blank");
+});
 GoogleDocs.addEventListener("click", () => {
   window.open(
     "https://google-docs-gnvkhz554-sarthakbhandari.vercel.app/",

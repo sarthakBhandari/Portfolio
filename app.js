@@ -15,6 +15,7 @@ const Gmail = document.getElementById("Gmail");
 const Social = document.getElementById("Social");
 const GoogleDocs = document.getElementById("GoogleDocs");
 const Airbnb = document.getElementById("Airbnb");
+const RPG = document.getElementById("RPG");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
@@ -37,6 +38,9 @@ menu_item.forEach((item) => {
   });
 });
 
+RPG.addEventListener("click", () => {
+  window.open("https://funny-belekoy-aade11.netlify.app/", "_blank");
+});
 Airbnb.addEventListener("click", () => {
   window.open("https://airbnb-fxafwovnj-sarthakbhandari.vercel.app/", "_blank");
 });

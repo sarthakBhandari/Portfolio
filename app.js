@@ -16,6 +16,7 @@ const Social = document.getElementById("Social");
 const GoogleDocs = document.getElementById("GoogleDocs");
 const Airbnb = document.getElementById("Airbnb");
 const RPG = document.getElementById("RPG");
+const selfDrivingCar = document.getElementById("selfDrivingCar");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
@@ -38,6 +39,12 @@ menu_item.forEach((item) => {
   });
 });
 
+selfDrivingCar.addEventListener("click", () => {
+  window.open(
+    "https://sarthakbhandari.github.io/ML-Self-Driving-Car/",
+    "_blank"
+  );
+});
 RPG.addEventListener("click", () => {
   window.open("https://funny-belekoy-aade11.netlify.app/", "_blank");
 });
